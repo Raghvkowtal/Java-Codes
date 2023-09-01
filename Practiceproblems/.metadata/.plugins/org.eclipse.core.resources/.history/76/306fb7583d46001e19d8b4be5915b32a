@@ -1,0 +1,16 @@
+package com.kodnest.power4;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("enter a num");
+		int num = scan.nextInt();
+		Power4 p4=new Power4();
+		int res=Power4.raiseToNum(num);
+		
+	}
+
+}

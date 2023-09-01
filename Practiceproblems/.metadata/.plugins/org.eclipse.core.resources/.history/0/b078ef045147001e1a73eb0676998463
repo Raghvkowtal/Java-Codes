@@ -1,0 +1,14 @@
+package com.kodenst.pattern.progg;
+
+public class ranval {
+
+	public static void main(String[] args) {
+		double min= 10.0;
+		double max= 20.0;
+		
+		double randomValue= min+(Math.random()*(max-min));
+        System.out.println("Random value between " + min + " and " + max + "is: " + randomValue);
+
+	}
+
+}

@@ -1,0 +1,12 @@
+package com.kodnest.power4;
+
+public class Power4 {
+   int raiseToNum(int num) {
+		int count =0;
+		while(num!=0) {
+			num=num/10;
+			count++;
+		}
+		return count;
+	}
+}

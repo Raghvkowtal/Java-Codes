@@ -1,0 +1,9 @@
+package com.kodnest.poweroftwo;
+
+public class Calculate {
+
+	public static int calculatesq(int number) {
+	   return number*number;
+	}
+
+}

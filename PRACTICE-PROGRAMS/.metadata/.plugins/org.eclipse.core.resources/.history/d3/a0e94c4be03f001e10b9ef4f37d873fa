@@ -1,0 +1,22 @@
+package com.kodnest.practprogthird;
+
+import java.util.Scanner;
+
+public class Main {
+	
+	public static void identifyPolygon(int sides) {
+		switch(sides) {
+		case 3:
+			System.out.println("triangle");
+		}
+		
+	}
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		int sides= scan.nextInt();
+		identifyPolygon(sides);
+		
+	}
+
+}

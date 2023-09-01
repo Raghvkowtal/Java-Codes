@@ -1,0 +1,9 @@
+package com.kodnest.poweroftwo;
+
+public class ExponentToTwo {
+
+	public static void exponentToTwo(double n) {
+	   double num= n*n;
+	}
+
+}

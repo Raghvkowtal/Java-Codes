@@ -1,0 +1,10 @@
+package com.kodnest.poweroftwo;
+
+public class exponentToTwo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

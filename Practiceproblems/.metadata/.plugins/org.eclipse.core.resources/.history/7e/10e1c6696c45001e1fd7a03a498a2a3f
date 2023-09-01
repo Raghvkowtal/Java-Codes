@@ -1,0 +1,15 @@
+package com.kodnest.secondproblem;
+
+public class checkPalindrome {
+
+	public static void checkPalindrome(int n) {
+		int originaldigit = n;
+		int nextdigit = 0;
+		
+		while(n>0) {
+			nextdigit = originaldigit*10+nextdigit;
+			n/=10;
+		}
+	}
+
+}
